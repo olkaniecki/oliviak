@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olivia Kaniecki</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav> 
+    </header>
+    <main>
+        
+        <section id="about">
+            <h1>About Me</h1>
+
+            <p>Hello! I'm Olivia Kaniecki, a senior undergraduate student studying Computer Science with a concentration in AI and Machine Learning at University of Maryland, Baltimore County.</p>
+            <p> I have experience in AI model development, large-scale data anlysis, and enterprise software solutions. I am also currently interested and learning full-stack development to further my skillset and tools.</p>
+            <p>I'm currently seeking an entry level position as a Software Engineer (Front-End, Back-end, Full-Stack) to expand expertise.</p>
+
+            <h3>Technical Skills</h3>
+            <ul class="skills">
+                <li>Python
+                    <ul>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Scikit-Learn</li>
+                        <li>PyTorch</li>
+                        <li>Keras</li>
+                    </ul>
+                </li>
+                <li>C & C++</li>
+                <li>HTML5, CSS3, Javascript</li>
+                <li>JSON</li>
+                <li>Git/Github</li>
+            </ul>
+
+            <h3>Professional Skills & Tools</h3>
+            <ul class="skills">
+                <li>VSCode</li>
+                <li>Agile Methodologies (Scrum, Kanban)</li>
+                <li>Confluence</li>
+                <li>Jira</li>
+                <li>Microsoft Office Suite (Word, PowerPoint, Excel, Teams)</li>
+            </ul>
+
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <img src="imgs/lockheed-martin.png" alt="Lockheed Martin Logo" width="90">
+                <h3>Software Engineer Intern - Lockheed Martin Space</h3>
+                <p><em>June 2025 - Present</em></p>
+                <ul>
+                    <li>Designed and implemented a telemetry parser architecture that significantly reduced troubleshooting time and enabled analysis of 300k+ data instances.</li>
+                    <li>Evaluated AI systems within an enterprise-scale codebase, improving unit testing coverage and engineering prompts that enhanced test accuracy and maintainability.</li>
+                    <li>Developed and delivered an AI-assisted unit test generation demo to a 50+ member engineering team, driving interest in integrating automated testing into the development pipeline.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <img src="imgs/umbc-logo.png" alt="UMBC Logo" width="80">
+                <h3>Teaching Fellow - CMSC341 Data Structures, UMBC</h3>
+                <p><em>August 2025 - Present</em></p>
+                <ul>
+                    <li>Provided in-person and virtual office hours to support students with coursework, specializing in C++ debugging and project development.</li>
+                    <li>Applied grade rubrics to evaluate programming projects, ensuring code quality, correctness, and adherence to software engineering principles.</li>
+                    <li>Reviewed assignments and exams to assess algorithmic design, code efficiency, and implementation accuracy.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <img src="imgs/ai4all-logo.png" alt="AI4ALL Logo" width="85">
+                <h3>Team Member - AI4ALL Ignite Program</h3>
+                <p>Project: Saliency-Enhanced Facial Recognition Model for Improved Accuracy</p>
+                <p><em>August 2024 - December 2024</em></p>
+                <ul>
+                    <li>Designed and implemented a deep learning model using Convolution Neural Networks (CNNs) and saliency maps to enhance the interpretability and accuracy of facial recognition systems.</li>
+                    <li>Trained and evaluted models using the <em>Labeled Faces in the Wild (LFW)</em> dataset (around 13k images), improving recognition accuracy.</li>
+                    <li>Presented findings to peers, program mentors, and industry experts, emphasizing the importance of model transparency and ethical AI in computer vision applications.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <img src="imgs/umbc-logo.png" alt="UMBC Logo" width="80">
+                <h3>Learning Assistant - PHYS122 Introduction to Physics II, UMBC</h3>
+                <p><em>August 2024 - March 2025</em></p>
+                <ul>
+                    <li>Facilitated active learning and conceptual understanding of complex course materual through structured group discussions consisting of 30+ students met twice weekly.</li>
+                    <li>Collaborated with professors, graduate students, and fellow LAs to develop effective instructional strategies tailored to student needs.</li>
+                    <li>Evaluated and graded assignments and exams for 100+ students, providing feedback to support academic growth and mastery of course material.</li>
+                </ul>
+                
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Connect with me <a href="https://www.linkedin.com/in/olivia-kaniecki-691075249/">on Linkedin</a></p>
+            <p>Email: <a href="mailto:olivialkaniecki@gmail.com">olivialkaniecki@gmail.com</a></p>
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+    <script src="index.js"></script>
+    <footer>
+        <p>&copy; 2025 Olivia Kaniecki</p>
+    </footer>
+  </body>
+</html>
